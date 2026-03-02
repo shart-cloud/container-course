@@ -8,9 +8,9 @@ app = Flask(__name__)
 GREETING = os.environ.get("GREETING", "Hello")
 ENVIRONMENT = os.environ.get("ENVIRONMENT", "development")
 # TODO: Replace "YOUR_NAME_HERE" with your actual name!
-STUDENT_NAME = os.environ.get("STUDENT_NAME", "YOUR_NAME_HERE")
+STUDENT_NAME = os.environ.get("STUDENT_NAME", "Ahmad-karimi")
 # TODO: Replace with your GitHub username
-GITHUB_USERNAME = "YOUR_GITHUB_USERNAME"
+GITHUB_USERNAME = "karimimozamel22-ai"
 
 @app.route("/")
 def home():
